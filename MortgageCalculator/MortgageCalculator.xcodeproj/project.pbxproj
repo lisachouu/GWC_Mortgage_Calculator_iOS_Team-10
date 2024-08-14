@@ -13,6 +13,8 @@
 		298A83672C3C4B3400799057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298A83652C3C4B3400799057 /* Main.storyboard */; };
 		298A83692C3C4B3500799057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298A83682C3C4B3500799057 /* Assets.xcassets */; };
 		298A836C2C3C4B3500799057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298A836A2C3C4B3500799057 /* LaunchScreen.storyboard */; };
+		4D9544E52C6CE5CC001537E4 /* mortgageCalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9544E42C6CE5CC001537E4 /* mortgageCalculatorScreen.swift */; };
+		4D9544E72C6CE68F001537E4 /* loginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9544E62C6CE68F001537E4 /* loginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		298A83682C3C4B3500799057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298A836B2C3C4B3500799057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298A836D2C3C4B3500799057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9544E42C6CE5CC001537E4 /* mortgageCalculatorScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mortgageCalculatorScreen.swift; sourceTree = "<group>"; };
+		4D9544E62C6CE68F001537E4 /* loginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				298A835F2C3C4B3400799057 /* AppDelegate.swift */,
 				298A83612C3C4B3400799057 /* SceneDelegate.swift */,
 				298A83632C3C4B3400799057 /* ViewController.swift */,
+				4D9544E42C6CE5CC001537E4 /* mortgageCalculatorScreen.swift */,
+				4D9544E62C6CE68F001537E4 /* loginScreen.swift */,
 				298A83652C3C4B3400799057 /* Main.storyboard */,
 				298A83682C3C4B3500799057 /* Assets.xcassets */,
 				298A836A2C3C4B3500799057 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				298A83642C3C4B3400799057 /* ViewController.swift in Sources */,
+				4D9544E52C6CE5CC001537E4 /* mortgageCalculatorScreen.swift in Sources */,
 				298A83602C3C4B3400799057 /* AppDelegate.swift in Sources */,
 				298A83622C3C4B3400799057 /* SceneDelegate.swift in Sources */,
+				4D9544E72C6CE68F001537E4 /* loginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
